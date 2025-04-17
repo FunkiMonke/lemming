@@ -6,3 +6,14 @@ footer
 {
     background-color: #95b6da;
 }
+
+#portsTable 
+{
+    border: 5px solid #598DC5;
+    border-collapse: collapse;
+    background-color: #95b6da;
+}
+
+tr:nth-child(odd) {
+    background-color: #D6EEEE;
+  }
