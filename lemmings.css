@@ -1,8 +1,27 @@
-body{
+body
+{
     background-color:#598DC5;
 }
 
 footer
 {
     background-color: #95b6da;
+}
+
+@font-face 
+{
+    font-family: Amiga;
+    src: url(pictures_and_fonts/amiga_forever/amiga4ever\ pro2.ttf) format('truetype');
+}
+
+.LegacyMainBody
+{
+    background-color: #288316 ;
+    font-family: Amiga;
+    font-size: 1.2vmax;
+}
+
+.otherText
+{
+    font-family: Amiga;
 }
