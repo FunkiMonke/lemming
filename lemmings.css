@@ -25,3 +25,7 @@ footer
 {
     font-family: Amiga;
 }
+
+th, td {
+    padding-right: 20px;
+  }
