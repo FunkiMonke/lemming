@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lemmings.css" rel="stylesheet">
+    <title>Lemmings - Development</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Lemmings</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="gameplay.html">Gameplay</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="development.html">Development</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="music.html">Music</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="portsexpansions.html">Ports & Expansions</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="reception.html">Reception</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="legacy.html">Legacy</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="p-5">
+        <h1>Development</h1>
+        <div class="row">
+            <div class="col">
+                <h5>The inspiration</h5>
+                <p>The inspiration for gameplay came as a result of a simple animated character sprite in an 8×8 pixel box created by Dailly using Deluxe Paint as part of development for Walker, then envisioned as a sequel to Blood Money.Dailly was able to quickly produce an animated graphic showing his creations moving endlessly, with additional graphical improvements made by Gary Timmons and other members of the DMA Design team to help remove the stiffness in the animation. One member, Russell Kay, observed that "There's a game in that!", and later coined the term "lemmings" for these creations, according to Dailly. Allowing the creatures to move across the landscape was based on a Salamander weapon concept for Blood Money and demonstrated with the animations</p>
+                <button type="button" class="btn btn-light w-100 border border-dark" data-bs-toggle="modal" data-bs-target="#walkAni">View the walking animation and its improvement</button>
+                <div class="modal fade" id="walkAni" tabindex="-1" aria-labelledby="modalLabelAni" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modalLabelAni">Walking Animatiom</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Gary Timmons improved Mike Dailly's lemming walking animation (left) to make it appear less stiff.</p>
+                                <img class="w-100" src="https://upload.wikimedia.org/wikipedia/en/a/a6/Lemming_animation.gif" alt="Walking animation, old and improved versions">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col">
+                <h4>Level Design</h4>
+                <p>Levels were designed based on a Deluxe Paint interface, which allowed several of the members to design levels, resulting in "hundreds of levels". There were several internal iterations of the levels, each designer challenging the others. Dailly pointed out that David Jones "used to try and beat us, and after proudly stabbing a finger at the screen and saying 'There! Beat that!', we'd calmly point out a totally new way of getting around all his traps, and doing it in a much simpler method. 'Oh...', he'd mutter, and scramble off to try and fix it." They also sent internally tested levels to Psygnosis, getting back the results of their testing via fax. While most were solved quickly, Dailly commented that "Every now and again though, the fax would be covered in scribbles with the time and comments crossed out again and again; this is what we were striving for while we were designing the levels, and it gave us all a warm fuzzy feeling inside.</p>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-2 w-50">
+                <h4>Level Styles</h4>
+                <p>Each of the designers had a somewhat different style in their levels: Dailly's levels often had titles containing clues to what to do (such as "It's Hero Time", suggesting that one lemming had to be separated from the crowd) and generally required the player to perform several actions at once; Gary Timmons's levels were minimalistic, with popular culture references in the titles; and Scott Johnston's (whose mother was the first voice of the lemmings) levels were generally tightly packed. Dailly was also responsible for the "custom" levels based on other Psygnosis and Reflections Interactive Amiga games, including Shadow of the Beast, Menace, Awesome and Shadow of the Beast II. These "crossover" levels also used music from those games, though in ports these levels have been removed or altered to remove such references. After they developed most of the hard levels, they then created several simple levels either by copying the existing ones or creating new layouts; as Dailly states, "This I believe is where many games fall down today, they do not spend the time making a good learning curve." Timmons is credited with the official drawings of the lemmings, as necessitated by the need of Psygnosis for box cover artwork</p>
+            </div>
+            <div class="col-2 w-50">
+                <div id="carouselLemming" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://64.media.tumblr.com/68c2ad7fbc590627e91d1f8c56c8318b/tumblr_inline_no6r37F9FK1t0ktpa_500.gifv" class="d-block w-100" alt="Mayhem lvl 12">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Mayhem, Level 12 - The Far Side</h5>
+                        </div>  
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://64.media.tumblr.com/010e0a4590005a987f28d448393a8ab9/tumblr_inline_p82qka6uWx1t0ktpa_500.gifv" class="d-block w-100" alt="Level 17 - Easy when you know how">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fun, Level 17 - Easy when you know how</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://64.media.tumblr.com/8dbff16f57091a7fef826ac0fbc87c8e/tumblr_inline_p91clo21US1t0ktpa_500.gifv" class="d-block w-100" alt="Level 2 - Only Floaters can survive this">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fun, Level 2 - Only floaters can survive this</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselLemming" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselLemming" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                  <div>
+                    <p></p>
+                    <h4>Adding a 2 player option</h4>
+                    <p>The two-player option was inspired by then-current games Populous and Stunt Car Racer. DMA Design initially wanted to use a null-modem connection between two machines to allow competitive play, but ended up using the ability of the Amiga to have two mouse pointer devices usable at the same time and thus created the split-screen mode</p>
+                  </div>
+            </div>
+            <div class="col-3">
+            </div>
+        </div>
+        <div class="row m-5">
+            <h4>Contributers to our knowledge of the development of Lemmings:</h4>
+            <div class="col-2 w-50">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Mike_Dailly%2C_2011.jpg/330px-Mike_Dailly%2C_2011.jpg" class="card-img-top" alt="Mike Dailly">
+                    <div class="card-body">
+                        <h5 class="card-title">Mark Dailly</h5>
+                        <p class="card-text">The first employee of DMA Design, one of the programmers for Lemmings, he provides a detailed history of the development of the game 'The Lemmings Story' in 2006.</p>
+                        <a href="https://en.wikipedia.org/wiki/Mike_Dailly_(game_designer)" class="btn btn-primary" data-bs-toggle="tooltip" title="Wikapedia link to Mike Dailly">Read more about Mike Dailly</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 w-50">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/David_Jones%2C_Gamelab_2018_%28cropped%29.jpg/330px-David_Jones%2C_Gamelab_2018_%28cropped%29.jpg" class="card-img-top" alt="David Jones">
+                    <div class="card-body">
+                        <h5 class="card-title">David Jones</h5>
+                        <p class="card-text">The founder of DMA Design, David Jones has commented on the development and success of Lemmings.</p>
+                        <a href="https://en.wikipedia.org/wiki/David_Jones_(video_game_developer)" class="btn btn-primary" data-bs-toggle="tooltip" title="Wikapedia link to David Jones">Read more about David Jones</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4>References<h4>
+        <a href="https://en.wikipedia.org/wiki/Lemmings_(video_game)">Wikapedia: Lemmings (Video Game)</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
