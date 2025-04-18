@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "msedge",
+            "type": "chrome",
             "request": "launch",
-            "name": "Open portsexpansions.html",
-            "file": "c:\\Users\\LMaks\\Desktop\\Computing Year 1\\H\\lemming\\portsexpansions.html"
+            "name": "Open index.html",
+            "file": "index.html"
         }
     ]
 }
